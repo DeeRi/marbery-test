@@ -4,3 +4,10 @@
   padding-top: 41px;
 }
 
+@media (max-width: $esm-max) {
+  .authorization {
+    margin: 0;
+    width: 100%;
+  }
+}
+

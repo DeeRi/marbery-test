@@ -93,13 +93,17 @@
   }
 }
 
-@media (max-width: $esm-max) {
+@media (max-width: $sm-max) {
  .form__input {
    margin-left: 0;
    width: 100%;
  }
 
  .form__button {
+   margin-left: 0;
+ }
+
+ .form__list {
    margin-left: 0;
  }
 }
