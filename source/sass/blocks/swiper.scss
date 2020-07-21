@@ -7,7 +7,7 @@
   left: -40px;
 }
 
-.swiper-button-prev {
+.swiper-button-next {
   right: -40px;
 }
 
@@ -64,5 +64,11 @@
   .swiper-button-prev,
   .swiper-button-next {
     display: none;
+  }
+}
+
+@media (max-width: $sm-max) {
+  .swiper-pagination {
+    left: 40%;
   }
 }
